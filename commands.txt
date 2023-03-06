@@ -1,0 +1,5 @@
+// image
+python detect.py --weights yolov7.pt --conf 0.4 --img-size 640 --source 0.jpg
+
+// video
+python detect.py --weights yolov7-tiny.pt --conf 0.4 --img-size 640 --source TokyoStreetWalk.mp4 <-nombre del archivo 
